@@ -1,9 +1,23 @@
-// import React from 'react';
-// import cn from 'classnames';
+import React from 'react'
+import Flyers from './Flyers'
+import Header from './Header'
 
-// import styles from './UntitledPage.module.scss';
+import cn from 'classnames'
+import styles from './UntitledPage.module.scss'
+import Footer from './Footer'
+import Events from './Events'
 
+export default function BahamaMamas() {
+  return (
+    <div>
+      <Header />
+      <div className={cn(styles.root_layout)}>
+        <Flyers />
+        {/* <Events /> */}
+      </div>
+      {/* <Footer /> */}
+    </div>
+  )
+}
 
-import UntitledPage from './UntitledPage';
-
-export default { UntitledPage };
+BahamaMamas.inStorybook = true
