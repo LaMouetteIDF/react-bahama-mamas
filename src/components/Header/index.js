@@ -26,7 +26,7 @@ export default function Header() {
 
       <div className={cn(styles.header_logo)}>
         <img
-          src={require('assets/a0220290df4c4baf9a01b99524e3875b.png').default}
+          src={require('assets/logo_bahama.png').default}
           alt="logo"
         />
       </div>

@@ -1,21 +1,37 @@
 import React from 'react'
-import Flyers from './Flyers'
+
 import Header from './Header'
+import Footer from './Footer'
+import Flyers from './Flyers'
+import Events from './Events'
 
 import cn from 'classnames'
 import styles from './UntitledPage.module.scss'
-import Footer from './Footer'
-import Events from './Events'
+import Galerie from './Galerie'
+import Neon from './Neon'
 
 export default function BahamaMamas() {
   return (
-    <div>
+    <div className={cn(styles.layout1)}>
       <Header />
-      <div className={cn(styles.root_layout)}>
+
+      <div className={cn(styles.layout2)}>
+        <Neon name="produits" />
+
         <Flyers />
-        {/* <Events /> */}
+
+        <Neon name="event" />
+
+        <Events />
+
+        <Neon name="galerie" />
+
+        <Galerie />
+
+        <Neon/>
       </div>
-      {/* <Footer /> */}
+
+      <Footer />
     </div>
   )
 }

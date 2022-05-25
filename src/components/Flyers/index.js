@@ -5,7 +5,7 @@ import styles from '../UntitledPage.module.scss';
 
 export default function Flyers() {
   return (
-    <div className={cn(styles.flyers)} id="produits">
+    <div className={cn(styles.flyers)}>
       <a
         href={require('assets/5a15a102fb323cfc300162025e719272.png').default}
         target="_blank"
