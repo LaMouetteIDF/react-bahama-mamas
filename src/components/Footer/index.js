@@ -2,6 +2,7 @@ import React from 'react'
 
 import cn from 'classnames'
 import styles from './styles.module.scss'
+import ImgModal from 'components/ImgModal'
 
 const date = new Date().getFullYear()
 
@@ -19,7 +20,7 @@ export default function Footer() {
       <div>
         <h4>CONTACTEZ-NOUS</h4>
 
-        <div>
+        <div className={cn(styles.contact)}>
           <p>
             <span>TÉLÉPHONE: </span>06 13 65 06 69
           </p>
@@ -30,11 +31,7 @@ export default function Footer() {
 
           <p>
             <span>SERVEUR GTA RP: </span>
-            <a
-              href="https://discord.gg/gprp"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://discord.gg/gprp" target="_blank" rel="noreferrer">
               https://discord.gg/gprp
             </a>
           </p>
@@ -43,13 +40,9 @@ export default function Footer() {
 
       <div>
         <h4>TROUVEZ-NOUS</h4>
-        <a
-          href={require('assets/store_is_here.png').default}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={require('assets/store_is_here.png').default} alt="map" />
-        </a>
+        <div className={cn(styles.map)}>
+          <ImgModal name="store_is_here.png" />
+        </div>
       </div>
     </footer>
   )
