@@ -12,7 +12,14 @@ import Neon from './Neon'
 
 export default function BahamaMamas() {
   return (
-    <div className={cn(styles.layout1)}>
+    <div
+      style={{
+        '--src': `url(${
+          require('assets/background_layout.jpg').default
+        })`
+      }}
+      className={cn(styles.layout1)}
+    >
       <Header />
 
       <div className={cn(styles.layout2)}>
@@ -28,12 +35,10 @@ export default function BahamaMamas() {
 
         <Galerie />
 
-        <Neon/>
+        <Neon />
       </div>
 
       <Footer />
     </div>
   )
 }
-
-BahamaMamas.inStorybook = true

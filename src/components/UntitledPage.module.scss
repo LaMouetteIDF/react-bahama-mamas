@@ -33,7 +33,7 @@ img {
 }
 
 .layout1 {
-  background-image: url(https://www.gotokyo.org/fr/story/guide/tokyo-at-night/images/main.jpg);
+  background-image: var(--src);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

@@ -20,7 +20,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router hashType="noslash" basename={process.env.BASE_PATH}>
+      <Router>
         <Switch>
           <Route exact path="/">
             <BahamaMamas />

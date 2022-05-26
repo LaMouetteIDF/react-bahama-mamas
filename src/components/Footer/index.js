@@ -33,7 +33,6 @@ export default function Footer() {
             <a
               href="https://discord.gg/gprp"
               target="_blank"
-              without
               rel="noreferrer"
             >
               https://discord.gg/gprp
