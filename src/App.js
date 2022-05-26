@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import BahamaMamas from 'components'
+import Home from './pages/Home'
 import AOS from 'aos'
 import { isMobile } from 'react-device-detect'
 
 import 'aos/dist/aos.css'
 import './App.css'
-import './fonts.css'
 
 class App extends Component {
   componentDidMount() {
@@ -23,7 +22,7 @@ class App extends Component {
       <Router>
         <Switch>
           <Route exact path="/">
-            <BahamaMamas />
+            <Home />
           </Route>
         </Switch>
       </Router>

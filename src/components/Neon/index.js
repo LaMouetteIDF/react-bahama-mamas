@@ -1,7 +1,8 @@
 import React from 'react'
 
 import cn from 'classnames'
-import styles from '../UntitledPage.module.scss'
+// import styles from '../index.module.scss'
+import styles from './styles.module.scss'
 
 export default function Neon(props) {
   return (
