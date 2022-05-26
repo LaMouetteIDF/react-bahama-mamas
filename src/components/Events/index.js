@@ -6,7 +6,11 @@ import styles from '../UntitledPage.module.scss'
 export default function Events() {
   return (
     <div className={cn(styles.event)}>
-      <a href={require('assets/flyer-event-ouverture.jpg').default}>
+      <a
+        href={require('assets/flyer-event-ouverture.jpg').default}
+        target="_blank"
+        rel="noreferrer"
+      >
         <img
           src={require('assets/flyer-event-ouverture.jpg').default}
           alt="event-ouverture"
