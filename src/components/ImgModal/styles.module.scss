@@ -17,10 +17,16 @@
     right: 0;
 
     color: #fff;
-    background-color: hsla(0, 100%, 50%, 0.40);
+    background-color: hsla(0, 100%, 50%, 0.4);
     padding: 8px;
 
     cursor: pointer;
+    user-select: none;
+
+    transition: all 0.25s;
+    &:hover {
+      background-color: hsla(0, 100%, 50%, 0.8);
+    }
   }
 }
 
@@ -33,8 +39,8 @@
   box-shadow: 0 0 10px rgb(12, 0, 19);
 
   img {
-    max-width: 95vh!important;
-    max-height: 95vh!important;
+    max-width: 95vh !important;
+    max-height: 95vh !important;
   }
 }
 
