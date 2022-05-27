@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import cn from 'classnames'
-import styles from './styles.module.scss'
-import ImgModal from 'components/ImgModal'
+import ImgModal from 'components/ImgModal';
+
+import cn from 'classnames';
+import styles from './styles.module.scss';
 
 export default function Flyers() {
   return (
@@ -17,5 +18,5 @@ export default function Flyers() {
         <ImgModal name="79286786ec51e03b1069383f4e2d4e5e.png" />
       </div>
     </div>
-  )
+  );
 }

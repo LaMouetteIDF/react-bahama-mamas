@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-import Header from 'components/Header' 
-import Neon from 'components/Neon' 
-import Flyers from 'components/Flyers'
-import Events from 'components/Events'
-import Galerie from 'components/Galerie'
-import Footer from 'components/Footer'
+import Header from 'components/Header';
+import Neon from 'components/Neon';
+import Flyers from 'components/Flyers';
+import Events from 'components/Events';
+import Galerie from 'components/Galerie';
+import Footer from 'components/Footer';
 
-import cn from 'classnames'
-import styles from './styles.module.scss'
+import cn from 'classnames';
+import styles from './styles.module.scss';
 
-export default function BahamaMamas() {
+export default function Home() {
   return (
     <div
       style={{
@@ -38,5 +38,5 @@ export default function BahamaMamas() {
 
       <Footer />
     </div>
-  )
+  );
 }

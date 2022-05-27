@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import cn from 'classnames'
-// import styles from '../index.module.scss'
-import styles from './styles.module.scss'
+import cn from 'classnames';
+import styles from './styles.module.scss';
 
 export default function Neon(props) {
   return (
@@ -12,5 +11,5 @@ export default function Neon(props) {
         alt="neon"
       />
     </div>
-  )
+  );
 }

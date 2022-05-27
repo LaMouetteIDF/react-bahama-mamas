@@ -43,7 +43,7 @@ img {
 }
 
 a {
-  color: #fff
+  color: #fff;
 }
 
 ::-webkit-scrollbar {
@@ -60,7 +60,6 @@ a {
   border-radius: 10px;
 
   box-shadow: 0 0 10px #af04ff;
-
 }
 
 ::-webkit-scrollbar-thumb:hover {

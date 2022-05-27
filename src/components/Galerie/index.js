@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import cn from 'classnames'
-import styles from './styles.module.scss'
-import ImgModal from 'components/ImgModal'
+import ImgModal from 'components/ImgModal';
+
+import cn from 'classnames';
+import styles from './styles.module.scss';
 
 export default function Galerie() {
   return (
@@ -31,5 +32,5 @@ export default function Galerie() {
         <ImgModal name="20220522004759_1.jpg" />
       </div>
     </div>
-  )
+  );
 }

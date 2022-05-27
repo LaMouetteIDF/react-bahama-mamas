@@ -1,13 +1,13 @@
-import React from 'react'
-import cn from 'classnames'
+import React from 'react';
 
-import styles from './styles.module.scss'
+import cn from 'classnames';
+import styles from './styles.module.scss';
 
 export default function Header() {
   return (
     <div className={cn(styles.header)}>
       <div className={cn(styles.header_video)}>
-        <video autoPlay loop muted >
+        <video autoPlay loop muted>
           <source src={require('assets/tacos.mp4').default} type="video/mp4" />
         </video>
       </div>
@@ -25,11 +25,8 @@ export default function Header() {
       </div>
 
       <div className={cn(styles.header_logo)}>
-        <img
-          src={require('assets/logo_bahama.png').default}
-          alt="logo"
-        />
+        <img src={require('assets/logo_bahama.png').default} alt="logo" />
       </div>
     </div>
-  )
+  );
 }

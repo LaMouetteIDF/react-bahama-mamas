@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-import cn from 'classnames'
-import styles from './styles.module.scss'
-import ImgModal from 'components/ImgModal'
+import ImgModal from 'components/ImgModal';
 
-const date = new Date().getFullYear()
+import cn from 'classnames';
+import styles from './styles.module.scss';
 
 export default function Footer() {
+  const date = new Date().getFullYear();
+
   return (
     <footer>
       <span className={cn(styles.societe)}>© {date} tacos inc.</span>
@@ -45,5 +46,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
